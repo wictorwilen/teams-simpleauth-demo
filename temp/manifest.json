@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "id": "a14856d0-3175-11ec-a284-817aac6580a5",
+  "version": "0.0.1",
+  "packageName": "teamssimpleauthdemo",
+  "developer": {
+    "name": "Wictor Wilén",
+    "websiteUrl": "https://simpleauth.ngrok.io",
+    "privacyUrl": "https://simpleauth.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://simpleauth.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "teams simpleauth demo",
+    "full": "teams simpleauth demo"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "30e51943-62c3-491a-bdf0-ad43644b28a6",
+      "name": "Simpleauth Demo",
+      "contentUrl": "https://simpleauth.ngrok.io/simpleauthDemoTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "simpleauth.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "c8c0e382-aa64-402b-a94f-3da9595f18c9",
+    "resource": "api://simpleauth.ngrok.io/c8c0e382-aa64-402b-a94f-3da9595f18c9"
+  }
+}

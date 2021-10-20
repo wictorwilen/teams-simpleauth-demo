@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "Wictor Wilén"
+    },
+    "libraryName": "teamsSimpleauthDemo",
+    "generator-version": "3.4.0-preview"
+  }
+}
